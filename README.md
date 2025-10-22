@@ -56,8 +56,8 @@ pip install -r requirements.txt
 ```
 
 2. Download the MovieLens data files and place them under `data/raw/`.  
-   - Download URL: <URL_TO_FILL_IN>  
-   - Place the unzipped dataset in either:
+   - Download URL: (https://grouplens.org/datasets/movielens/100k/)
+   - Place the unzipped datasets in:
      - `data/raw/ml-latest/` (full dataset) or
      - `data/raw/ml-latest-small/` (smaller subset)
 
@@ -71,5 +71,5 @@ pip install -r requirements.txt
 - Encoders and model artifacts are saved to `artifacts/` and `outputs/` (see `outputs/encoders/` and `outputs/checkpoints/`).
 
 ## Notes
-- Update the download URL above before fetching the raw data.
 - See the notebooks in [notebooks/](notebooks/) for exploratory work and examples.
+- Planning to add a matrix factorisation approach, this is explored in notebooks
