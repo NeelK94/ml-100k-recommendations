@@ -1,0 +1,23 @@
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+
+jupyter
+
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# Progress bar & visualization
+tqdm==4.66.4
+tensorboard==2.17.1
+
+# Utility and data tools
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Project structure / data pipeline helpers
+pyyaml==6.0.1
+
+# Hybrid recommender system library
+lightfm==1.17
